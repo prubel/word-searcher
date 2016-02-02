@@ -9,7 +9,7 @@ Tested on mac and linux.
 Requires g++/llvm and a postscript viewer such as gv on linux or open on that mac.
 You'll also need a list of words to look for. I use the words from /usr/share/dict/words.
 
-= Usage =
+## Usage 
 
 Usage: ./solve {-n min-word-length} {-d dictionary-file} {-o output-file} {-f found-words-file}
   default minimum word length is 5. 
@@ -24,10 +24,10 @@ Usage: ./solve {-n min-word-length} {-d dictionary-file} {-o output-file} {-f fo
 Input is taken from standard in, first the number of rows and then each row.
 You can type in the rows or use some OCR software to take them from an image.
 
-= Compiling =
+## Compiling 
 
 If you have a g++ you should just be able to run make.
 
-= Thanks =
+## Thanks 
 Thanks to Arash Partow for providing the bloom filter code. 
 http://www.partow.net/programming/hashfunctions/index.html 
